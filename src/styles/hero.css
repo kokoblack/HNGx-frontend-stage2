@@ -1,0 +1,44 @@
+.hero-container {
+  width: 100vw;
+}
+
+.hero-container div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-search_container {
+  border-radius: 0.375rem;
+  border: 2px solid #d1d5db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+  margin: 0 auto;
+}
+
+.hero-search_container > input {
+  border: none;
+  width: 5rem;
+}
+
+.hero-search_container > input::placeholder {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.hero-container div:first-child > p {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.hero-icon {
+  font-size: 1rem;
+  padding: 0.5rem;
+  background-color: #be123c;
+}
