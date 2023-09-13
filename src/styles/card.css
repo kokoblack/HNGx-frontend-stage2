@@ -1,6 +1,7 @@
 .card-container {
   width: 14rem;
   background-color: #fff;
+  position: relative;
 }
 
 /* .card-container p {
@@ -10,6 +11,16 @@
 .card-poster {
   width: 14rem;
   height: 15rem;
+}
+
+.card-icon {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  padding: .5rem;
+  background-color: #cdd4df;
+  color: #70747c;
+  border-radius: 50%;
 }
 
 .card-text_country {
